@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap");
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+body {
+  block-size: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+}
+
+.wrap {
+  inline-size: 80%;
+  min-inline-size: 400px;
+  max-inline-size: 500px;
+  text-align: center;
+  -webkit-box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.35);
+          box-shadow: 12px 12px 20px rgba(0, 0, 0, 0.35);
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 0.5rem;
+  -webkit-border-before: 1px solid rgba(255, 255, 255, 0.5);
+          border-block-start: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-border-start: 1px solid rgba(255, 255, 255, 0.5);
+          border-inline-start: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  padding-block: 12px;
+  padding-inline: 9px;
+}
+
+.wrap h1 {
+  font-size: 1.1rem;
+  font-weight: 400;
+  line-height: 5rem;
+  letter-spacing: 0.1rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap h1 {
+    font-size: 1.4rem;
+  }
+}
+
+.wrap .wrap-p p {
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0.3rem;
+}
+
+@media screen and (min-width: 768px) {
+  .wrap .wrap-p p {
+    font-size: 1.6rem;
+  }
+}
+
+.wrap button {
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 0.1rem;
+  border: none;
+  -webkit-box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+  background-color: rgba(255, 255, 255, 0.1);
+  -webkit-border-before: 1px solid rgba(255, 255, 255, 0.5);
+          border-block-start: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-border-start: 1px solid rgba(255, 255, 255, 0.5);
+          border-inline-start: 1px solid rgba(255, 255, 255, 0.5);
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  border-radius: 0.5rem;
+  cursor: pointer;
+  padding-block: 12px;
+  padding-inline: 16px;
+  -webkit-margin-before: 2rem;
+          margin-block-start: 2rem;
+  -webkit-margin-after: 1.8rem;
+          margin-block-end: 1.8rem;
+}
+/*# sourceMappingURL=main.css.map */
